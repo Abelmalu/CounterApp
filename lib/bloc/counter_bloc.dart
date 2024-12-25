@@ -1,11 +1,13 @@
-
 import 'package:bloc/bloc.dart';
 
-class CounterIncremented{
+class CounterIncremented {}
 
-  
-}
-class CounterBloc extends Bloc<CounterIncremented,int>{
+class CounterBloc extends Bloc<CounterIncremented, int> {
+  CounterBloc() : super(0) {
+    on<CounterIncremented>((event, emit) {
 
-  CounterBloc():super(0);
+
+      
+    });
+  }
 }
